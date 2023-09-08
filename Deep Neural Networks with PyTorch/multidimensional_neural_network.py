@@ -191,3 +191,20 @@ train_loader = DataLoader(dataset=data_set, batch_size=1)
 LOSS12 = train(data_set, model, criterion, train_loader, optimizer, epochs=500)
 plot_decision_regions_2class(model, data_set)
 '''
+
+#✅ EXPLAIN nn.BCELoss()🍂
+'''
+"nn.BCELoss()" represents a loss function in the PyTorch library.
+This expression stands for "Binary Cross-Entropy Loss" and is specifically used in binary classification tasks.
+
+In binary classification tasks, you typically make predictions on a single example belonging to one of two classes,
+such as positive and negative. The primary purpose of the "nn.BCELoss()" function is to compute a loss value by comparing the model's predictions
+to the actual labels in these binary classification tasks.
+
+This function is used to compare the predicted values (model outputs) to the ground truth labels (expected outcomes).
+As a result of this comparison, a loss value is computed, which is then used in the backpropagation process during model training to update the model's parameters.
+The model's parameters are updated to minimize this loss value.
+
+In summary, "nn.BCELoss()" is a loss function used to evaluate and train models in binary classification tasks by measuring how well the model's predictions
+match the actual labels.
+'''
