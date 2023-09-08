@@ -1,3 +1,4 @@
+# We will see how many neurons it takes to classify noisy XOR data with one hidden layer neural network with explanations.🟡
 import numpy as np
 import torch
 import torch.nn as nn
